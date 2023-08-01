@@ -13,6 +13,8 @@ import android.widget.LinearLayout;
 import java.util.ArrayList;
 import java.util.List;
 
+import jp.shts.android.storyprogressbar.R;
+
 public class StoriesProgressView extends LinearLayout {
 
     private static final String TAG = StoriesProgressView.class.getSimpleName();
