@@ -24,6 +24,17 @@ android {
 
 }
 
+publishing {
+
+    publications {
+        gpr(MavenPublication) {
+            groupId = 'ix.android'
+            artifactId = 'storyprogressbar'
+            version = '3.0.1'
+        }
+    }
+}
+
 dependencies {
     implementation "androidx.appcompat:appcompat:1.6.1"
     testImplementation 'junit:junit:4.13.2'
@@ -32,4 +43,6 @@ dependencies {
         exclude group: 'com.android.support', module: 'support-annotations'
     })
 }
+
+
 
