@@ -28,8 +28,8 @@ publishing {
 
     publications {
         gpr(MavenPublication) {
-            groupId = 'ix.android'
-            artifactId = 'storyprogressbar'
+            groupId = 'com.github.ildixhaferri'
+            artifactId = 'StoriesProgressView'
             version = '3.0.1'
         }
     }

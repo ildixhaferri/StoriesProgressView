@@ -1,12 +1,11 @@
 package jp.shts.android.storyprogressbar;
 
 import android.os.Bundle;
-import androidx.appcompat.app.AppCompatActivity;
 import android.view.MotionEvent;
 import android.view.View;
 import android.view.WindowManager;
 import android.widget.ImageView;
-
+import androidx.appcompat.app.AppCompatActivity;
 import jp.shts.android.storiesprogressview.StoriesProgressView;
 
 public class MainActivity extends AppCompatActivity implements StoriesProgressView.StoriesListener {
