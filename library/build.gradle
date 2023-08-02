@@ -22,15 +22,24 @@ android {
         }
     }
 
+    publishing {
+        singleVariant("release") {
+            withSourcesJar()
+            withJavadocJar()
+        }
+    }
+
 }
 
+afterEvaluate{
 publishing {
-
     publications {
-        gpr(MavenPublication) {
+        release(MavenPublication) {
+            from components.release
             groupId = 'com.github.ildixhaferri'
             artifactId = 'StoriesProgressView'
             version = '3.0.1'
+        }
         }
     }
 }
